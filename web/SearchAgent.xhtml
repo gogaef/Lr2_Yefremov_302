@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <h:head>
+        <title>#{application.getAttribute("nameProject")}</title>
+    </h:head>
+    <h:body>
+
+        <h:form>
+            Выберите возраст <br/><br/>
+            От <h:inputText binding="#{fromAge}"> <f:convertNumber/> </h:inputText>
+            До <h:inputText binding="#{toAge}"> <f:convertNumber/> </h:inputText>
+            <br/><br/><br/>
+            Выберите опыт работы <br/><br/>
+            От <h:inputText binding="#{fromExp}"> <f:convertNumber/> </h:inputText>
+            До <h:inputText binding="#{toExp}"> <f:convertNumber/> </h:inputText>
+            <br/><br/><br/>
+            Выберите процентную ставку <br/><br/>
+            От <h:inputText binding="#{fromProc}"> <f:validateRegex pattern="0\.0\d" /> </h:inputText>
+            До <h:inputText binding="#{toProc}"> </h:inputText>
+            <br/><br/>
+            <h:commandButton value="Подтвердить" action="#{processSearchAgent.searchAgent(fromAge.value,toAge.value,fromExp.value,toExp.value,fromProc.value,toProc.value)}" />
+            
+        </h:form>
+    </h:body>
+</html>
+

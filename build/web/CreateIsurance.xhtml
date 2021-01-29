@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <h:head>
+        <title>#{application.getAttribute("nameProject")}</title>
+    </h:head>
+    <h:body>
+        Выберите необходимые поля
+        <h:form>
+            Id Агента
+            <h:selectOneMenu binding="#{idAgent}" >
+                <f:selectItems value="#{autentification.agents}" />
+            </h:selectOneMenu>
+            
+            
+            Объект страхования
+            <h:selectOneMenu binding="#{price}" >
+                <f:selectItem itemValue="5000" itemLabel="Драгоценности"></f:selectItem>
+                <f:selectItem itemValue="10000" itemLabel="Автомобиль"></f:selectItem>
+                <f:selectItem itemValue="15000" itemLabel="Здание"></f:selectItem>
+                <f:selectItem itemValue="25000" itemLabel="Жизнь"></f:selectItem>
+            </h:selectOneMenu>
+            <br/>
+            <br/>
+            <br/>
+            <h:commandButton action="#{processCreatingIsurance.createIsurance(idAgent.value ,price.value )}" value="Подтвердить"/>
+        </h:form>
+        
+    </h:body>
+</html>
+

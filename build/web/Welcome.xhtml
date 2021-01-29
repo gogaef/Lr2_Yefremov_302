@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    #{application.setAttribute("nameProject","Страховая компания")}
+    <h:head>
+        <title>#{application.getAttribute("nameProject")}</title>
+    </h:head>
+    <h:body>
+        <h:form>
+            <h:panelGrid columns="2" cellspacing="2">
+                <h:selectOneMenu binding='#{selected}' >
+                    <f:selectItem itemValue="Client" itemLabel="Клиент"/>
+                    <f:selectItem itemValue="Agent" itemLabel="Агент" />
+                </h:selectOneMenu>
+                <h:inputText  binding="#{password}" />
+                <f:facet name="footer" >
+                    <h:commandButton value="Подтвердить" action="#{autentification.doPost(selected.value,password.value)}">
+                    </h:commandButton>
+                </f:facet>
+                
+            </h:panelGrid>
+            
+        </h:form>
+        
+    </h:body>
+</html>
+

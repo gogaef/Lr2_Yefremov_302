@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/WebApplication4/web/CreateIsurance.xhtml</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/WebApplication4/web/ErrorPermission.xhtml</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/WebApplication4/web/result.xhtml</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/WebApplication4/src/java/classes/Client.java</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/WebApplication4/web/Welcome.xhtml</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/WebApplication4/src/java/classes/Agent.java</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/WebApplication4/web/ErrorNotFound.xhtml</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/WebApplication4/web/SearchAgent.xhtml</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/WebApplication4/web/ResultAgent.xhtml</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/WebApplication4/web/resources/templates/ErrorTemplate.xhtml</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/WebApplication4/src/java/models/ProcessDeletingAgreement.java</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/WebApplication4/src/java/models/ProcessChangingAgent.java</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/WebApplication4/src/java/classes/ManagerQuery.java</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/WebApplication4/web/ChangeDocument.xhtml</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/WebApplication4/src/java/models/ProcessSearchAgent.java</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/WebApplication4/web/DeleteIsurance.xhtml</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/WebApplication4/web/ErrorIdentification.xhtml</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/WebApplication4/src/java/models/ProcessCreatingIsurance.java</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/WebApplication4/web/WelcomeUser.xhtml</file>
+        </group>
+    </open-files>
+</project-private>

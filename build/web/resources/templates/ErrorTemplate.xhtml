@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' ?> 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:composite="http://java.sun.com/jsf/composite">
+    
+    <composite:interface>
+        <composite:attribute name="errorMessage"/>
+        <composite:attribute name="href"/>
+        <composite:attribute name="btnTxt"/>
+    </composite:interface>
+    
+    
+    <composite:implementation>
+        <h:outputText value="#{cc.attrs.errorMessage}"  />
+        <br/><br/>
+        <h:link style="background:blueviolet; color:white; text-decoration:none; padding: 1rem 1.5rem;" outcome="#{cc.attrs.href}" value="#{cc.attrs.btnTxt}" />
+    </composite:implementation>
+   
+
+</html>
